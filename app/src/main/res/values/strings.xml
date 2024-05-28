@@ -32,5 +32,11 @@
     <string name="sign_up">Sign Up</string>
     <string name="language">Language</string>
     <string name="brazilian_portuguese">Brazilian Portuguese</string>
+    <string name="change_password">Change Password</string>
+    <string name="previous_password">Previous password</string>
+    <string name="enter_your_previous_password">Enter your previous password</string>
+    <string name="new_password">New Password</string>
+    <string name="hint_enter_new_password">Enter new password</string>
+    <string name="hint_confirm_your_new_password">Confirm your new password</string>
 
 </resources>

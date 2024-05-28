@@ -40,9 +40,9 @@
         app:layout_constraintTop_toBottomOf="@+id/subtitle"
         android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="29dp"
+        android:layout_marginStart="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="29dp">
+        android:layout_marginEnd="20dp">
 
         <TextView
             android:id="@+id/edit_text_email_title"
@@ -59,9 +59,12 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="@string/hint_email"
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress"
             android:paddingStart="20dp"
             android:textSize="15sp"
-            android:background="@drawable/edittext_rounded_corners"/>
+            android:background="@drawable/edittext_rounded_corners"
+            tools:ignore="RtlSymmetry" />
 
 
         <TextView
@@ -80,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="@string/hint_password"
+            android:autofillHints="password"
             android:paddingStart="20dp"
             android:textSize="15sp"
             android:inputType="textPassword"
@@ -112,14 +116,15 @@
         </LinearLayout>
         
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:id="@+id/btn_sign_in"
+            android:layout_width="360dp"
+            android:layout_height="57dp"
             android:layout_marginTop="30dp"
             android:text="@string/sign_in"
             android:textSize="20sp"
             app:backgroundTint="@null"
             android:background="@drawable/button_drawable"
-            />
+            android:layout_gravity="center"/>
 
         <LinearLayout
             android:layout_width="match_parent"
