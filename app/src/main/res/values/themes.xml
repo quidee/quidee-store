@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.QuideeStore" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
@@ -6,6 +6,16 @@
     </style>
 
     <style name="Theme.QuideeStore" parent="Base.Theme.QuideeStore" />
+
+
+
+
+    <style name="RoundedCheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/rounded_checkbox_background</item>
+    </style>
+
+
 
 
 </resources>
