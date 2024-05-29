@@ -39,11 +39,18 @@
     <string name="new_password">New password</string>
     <string name="hint_enter_new_password">Enter new password</string>
     <string name="hint_enter_new_email">Enter new email</string>
+    <string name="hint_enter_new_phone_number">Enter new phone number</string>
     <string name="hint_confirm_your_new_password">Confirm your new password</string>
     <string name="hint_confirm_your_new_email">Confirm your new email</string>
+    <string name="hint_confirm_your_new_phone_number">Confirm your new phone number</string>
     <string name="change_email">Change email</string>
     <string name="previous_email">Previous email</string>
     <string name="enter_your_previous_email">Enter your previous email</string>
     <string name="new_email">New email</string>
+    <string name="change_phone_number">Change phone number</string>
+    <string name="previous_phone_number">Previous phone number</string>
+    <string name="enter_your_previous_phone_number">Enter your previous phone number</string>
+    <string name="new_phone_number">New phone number</string>
+    <string name="confirm_phone_number">Confirm phone number</string>
 
 </resources>
