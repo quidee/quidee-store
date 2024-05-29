@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Quidee Store</string>
-    <string name="sign_in">Sign In</string>
-    <string name="verification_code">Verification Code</string>
+    <string name="sign_in">Sign in</string>
+    <string name="verification_code">Verification code</string>
     <string name="next">Next</string>
     <string name="confirm">Confirm</string>
-    <string name="create_account">Create Account</string>
+    <string name="create_account">Create account</string>
     <string name="subtitle_login">Come in and enjoy the world in the palm of your hand.</string>
     <string name="subtitle_verification_code">We have to sent the code verification to</string>
     <string name="email_example">email@email.com</string>
@@ -18,25 +18,32 @@
     <string name="hint_phone_number">Enter your phone number</string>
     <string name="hint_email_create_account">Enter your email</string>
     <string name="password">Password</string>
-    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="confirm_email">Confirm email</string>
     <string name="last_name">Last name</string>
-    <string name="phone_number">Phone Number</string>
+    <string name="phone_number">Phone number</string>
     <string name="email">Email</string>
-    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password">Forgot password?</string>
     <string name="dont_have_account">Dont have an account?</string>
     <string name="have_account">Have an account?</string>
     <string name="didnt_receive_code">Didn\'t receive the code?</string>
-    <string name="email_or_phone_number">Email or Phone Number</string>
+    <string name="email_or_phone_number">Email or phone number</string>
     <string name="name">Name</string>
     <string name="resend">Resend</string>
-    <string name="sign_up">Sign Up</string>
+    <string name="sign_up">Sign up</string>
     <string name="language">Language</string>
     <string name="brazilian_portuguese">Brazilian Portuguese</string>
-    <string name="change_password">Change Password</string>
+    <string name="change_password">Change password</string>
     <string name="previous_password">Previous password</string>
     <string name="enter_your_previous_password">Enter your previous password</string>
-    <string name="new_password">New Password</string>
+    <string name="new_password">New password</string>
     <string name="hint_enter_new_password">Enter new password</string>
+    <string name="hint_enter_new_email">Enter new email</string>
     <string name="hint_confirm_your_new_password">Confirm your new password</string>
+    <string name="hint_confirm_your_new_email">Confirm your new email</string>
+    <string name="change_email">Change email</string>
+    <string name="previous_email">Previous email</string>
+    <string name="enter_your_previous_email">Enter your previous email</string>
+    <string name="new_email">New email</string>
 
 </resources>

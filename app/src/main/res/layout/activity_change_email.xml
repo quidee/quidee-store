@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".ChangePasswordActivity">
+    tools:context=".ChangeEmailActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -34,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="@string/change_password"
+                android:text="@string/change_email"
                 android:fontFamily="sans-serif-black"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -53,10 +54,10 @@
         android:layout_marginTop="60dp">
 
         <TextView
-            android:id="@+id/text_view_previous_password_title"
+            android:id="@+id/text_view_previous_email_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/previous_password"
+            android:text="@string/previous_email"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
             android:textSize="15sp"
@@ -64,22 +65,22 @@
             android:layout_marginTop="20dp"/>
 
         <EditText
-            android:id="@+id/editText_previous_password"
+            android:id="@+id/editText_previous_email"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:hint="@string/enter_your_previous_password"
+            android:hint="@string/enter_your_previous_email"
             android:autofillHints="password"
             android:paddingStart="20dp"
             android:textSize="15sp"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:paddingEnd="10dp"
             android:background="@drawable/edittext_rounded_corners" />
 
         <TextView
-            android:id="@+id/text_view_password_title"
+            android:id="@+id/text_view_email_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/new_password"
+            android:text="@string/new_email"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
             android:textSize="15sp"
@@ -89,22 +90,22 @@
 
 
         <EditText
-            android:id="@+id/editText_password_create_account"
+            android:id="@+id/editText_new_email"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:hint="@string/hint_enter_new_password"
+            android:hint="@string/hint_enter_new_email"
             android:autofillHints="password"
             android:paddingStart="20dp"
             android:textSize="15sp"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:paddingEnd="10dp"
             android:background="@drawable/edittext_rounded_corners" />
 
         <TextView
-            android:id="@+id/text_view_password_title_account"
+            android:id="@+id/text_view_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/confirm_password"
+            android:text="@string/confirm_email"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
             android:textSize="15sp"
@@ -112,21 +113,21 @@
             android:layout_marginTop="20dp"/>
 
         <EditText
-            android:id="@+id/editText_password"
+            android:id="@+id/text_view_confirm_email"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:hint="@string/hint_confirm_your_new_password"
+            android:hint="@string/hint_confirm_your_new_email"
             android:autofillHints="password"
             android:paddingStart="20dp"
             android:textSize="15sp"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:paddingEnd="10dp"
             android:background="@drawable/edittext_rounded_corners" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/next_create_account"
+        android:id="@+id/btn_next_email"
         android:layout_width="360dp"
         android:layout_height="57dp"
         android:background="@drawable/button_drawable"
@@ -138,8 +139,5 @@
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="60dp"
         tools:ignore="VisualLintButtonSize" />
-
-
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
