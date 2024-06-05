@@ -56,14 +56,15 @@
         <androidx.cardview.widget.CardView
             android:layout_width="170dp"
             android:layout_height="167dp"
-            android:elevation="12dp"
+            android:elevation="15dp"
             android:id="@+id/view2"
-            app:cardCornerRadius="90dp">
+            app:cardCornerRadius="150dp">
 
             <ImageView
                 android:layout_height="170dp"
                 android:layout_width="match_parent"
                 android:id="@+id/imageView1"
+                android:importantForAccessibility="no"
                 android:src="@drawable/profile"
                 android:scaleType="centerCrop"
                 android:layout_gravity="center" />
@@ -124,6 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:hint="@string/hint_last_name"
+            android:importantForAutofill="no"
             android:paddingStart="20dp"
             android:textSize="15sp"
             android:inputType="text"
