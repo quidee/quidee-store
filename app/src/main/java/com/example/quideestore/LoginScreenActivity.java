@@ -33,7 +33,7 @@ public class LoginScreenActivity extends AppCompatActivity {
 
         //to test
         btnLogin.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginScreenActivity.this, ProfileActivity.class);
+            Intent intent = new Intent(LoginScreenActivity.this, MyOrdersActivity.class);
             startActivity(intent);
         });
 

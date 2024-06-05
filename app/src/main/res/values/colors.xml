@@ -5,5 +5,8 @@
     <color name="primary">#B6D048</color>
     <color name="secondary">#E5FE7A</color>
     <color name="grey">#D4D4D4</color>
+    <color name="light_grey">#F5F5F5</color>
+    <color name="dark_grey">#808080</color>
+    <color name="m_grey">#AFB7C0</color>
     <color name="red">#FA0000</color>
 </resources>

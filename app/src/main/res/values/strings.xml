@@ -65,5 +65,10 @@
     <string name="coupon">Coupon</string>
     <string name="customer_service">Customer Service</string>
     <string name="user_name">USER NAME</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="price">Price</string>
+    <string name="order_code">Q12345</string>
+    <string name="place_order_time">Place order time:</string>
+    <string name="delivery_estimate">Delivery estimate:</string>
 
 </resources>
