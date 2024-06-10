@@ -78,5 +78,7 @@
     <string name="store_name">Store Name</string>
     <string name="_4_9_chocolates">4.9 - Chocolates</string>
     <string name="_60_80_min_r_5_99">60-80 min - R$ 5,99</string>
+    <string name="notification">Notification</string>
+    <string name="empty">Empty</string>
 
 </resources>
