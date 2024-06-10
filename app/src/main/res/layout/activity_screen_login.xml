@@ -117,7 +117,7 @@
         
         <Button
             android:id="@+id/btn_sign_in"
-            android:layout_width="360dp"
+            android:layout_width="349dp"
             android:layout_height="57dp"
             android:layout_marginTop="30dp"
             android:text="@string/sign_in"

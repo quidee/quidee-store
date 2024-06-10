@@ -70,5 +70,9 @@
     <string name="order_code">Q12345</string>
     <string name="place_order_time">Place order time:</string>
     <string name="delivery_estimate">Delivery estimate:</string>
+    <string name="help">Help</string>
+    <string name="order_confirmed">Order confirmed</string>
+    <string name="the_store_confirmed_your_order">The store confirmed your order</string>
+    <string name="track_order">Track order</string>
 
 </resources>
