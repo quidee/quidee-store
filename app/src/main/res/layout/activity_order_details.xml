@@ -191,7 +191,7 @@
 
                 <Button
                     android:id="@+id/btn_sign_in"
-                    android:layout_width="339dp"
+                    android:layout_width="310dp"
                     android:layout_height="50dp"
                     android:text="@string/track_order"
                     android:textSize="16sp"

@@ -95,5 +95,7 @@
     <string name="an_error_occurred">An error occurred but we are already working to resolve it. Please, try again.</string>
     <string name="go_back">Go back</string>
     <string name="example"><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ]]></string>
+    <string name="add">Add</string>
+    <string name="cart">Cart</string>
 
 </resources>
