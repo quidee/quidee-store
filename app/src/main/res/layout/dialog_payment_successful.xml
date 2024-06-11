@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/dialog_background"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp">
+
+    <ImageView
+        android:id="@+id/imageViewCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_check_circle" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment_successful"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_payment_was_successful_thank_you_for_your_order"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:id="@+id/buttonViewOrder"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/view_order"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_drawable"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

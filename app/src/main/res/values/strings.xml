@@ -88,5 +88,11 @@
     <string name="checkout">Checkout</string>
     <string name="delivery_address">Delivery address</string>
     <string name="pay_now">Pay Now</string>
+    <string name="payment_successful">Payment Successful!</string>
+    <string name="your_payment_was_successful_thank_you_for_your_order">Your payment was successful. Thank you for your order.</string>
+    <string name="view_order">View Order</string>
+    <string name="an_error_has_occurred">An error has occurred</string>
+    <string name="an_error_occurred">An error occurred but we are already working to resolve it. Please, try again.</string>
+    <string name="go_back">Go back</string>
 
 </resources>

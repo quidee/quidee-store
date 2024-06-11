@@ -1,8 +1,11 @@
 package com.example.quideestore;
 
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -33,11 +36,31 @@ public class LoginScreenActivity extends AppCompatActivity {
 
         //to test
         btnLogin.setOnClickListener(v -> {
-            Intent intent = new Intent(LoginScreenActivity.this, AddCardScreenActivity.class);
+            Intent intent = new Intent(LoginScreenActivity.this, NotificationActivity.class);
             startActivity(intent);
+
+            //showPaymentSuccessfulDialog();
         });
 
 
 
+    }
+
+    private void showPaymentSuccessfulDialog() {
+        final Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.dialog_payment_successful);
+
+
+        dialog.setCancelable(true);
+
+        Button viewOrderButton = dialog.findViewById(R.id.buttonViewOrder);
+        viewOrderButton.setOnClickListener(v -> {
+
+            dialog.dismiss();
+            //Other actions here
+        });
+
+        dialog.show();
     }
 }
