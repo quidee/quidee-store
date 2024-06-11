@@ -85,5 +85,8 @@
     <string name="add_card">Add card</string>
     <string name="card_holder_name">Card Holder Name</string>
     <string name="card_number">Card Number</string>
+    <string name="checkout">Checkout</string>
+    <string name="delivery_address">Delivery address</string>
+    <string name="pay_now">Pay Now</string>
 
 </resources>
